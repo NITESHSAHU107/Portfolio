@@ -1,0 +1,259 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Portfolio</title><meta charset="UTF-8">
+<meta name="description" content="Free Web tutorials">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="author" content="John Doe">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/8085b8b9a2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>     
+                <img src="nslogo.png"  class="logo"/>
+                <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>Hi,I'm <span>Nitesh</span><br />Sahu from India</h1>
+                
+            </div>
+       </div>
+    </div>
+    <!---------------------------------About------------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="nitesh-.png" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a highly motivated and skilled professional with a passion for Computer Science and Engineering. 
+                         I have consistently demonstrated a commitment to excellence and a track record of achieving exceptional results. My diverse background,
+                          coupled with a strong drive to continuously learn and grow, allows me to adapt quickly to new challenges and deliver innovative solutions. As a dedicated team player and effective communicator, 
+                          I thrive in collaborative environments that foster creativity and problem-solving.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Projects</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            
+                            <li><span>Web Development</span> </li>
+                            <li>HTML</li>
+                            <li>CSS<br /></li>
+                            <li>JAVA SCRIPT<br /></li>
+                            <li>BOOTSTRAP<br /></li>
+                            <li>DBMS<br /></li>
+                            <li><span>App Development</span><br />Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                   
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2023</span><br />B.Tech(CSE)</li>
+                            <li><span>2017-2020</span><br />Diploma(CSE)</li>
+                            <li><span>2016-2017</span><br />10+2(PCM)</li>
+                            <li><span>2014-2015</span><br />10(All Sub.)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-Current</span><br />N-Tech Software and Website Solutions</li>
+                            <li><span>2022-2023</span><br />E-Commerce Website(Education)</li>
+                            <li><span>2022-2023</span><br />Library Management System Website</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+    </div>
+    <!-------------------------------------------services------------------------------------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Web Design</h2>
+                    <p> I can help you fulfill your content creation goals</p>
+                      <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-crop"></i>
+                    <h2> UI/UX Design</h2>
+                    <p> I can help you fulfill your content creation goals</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2> App Design</h2>
+                    <p> I can help you fulfill your content creation goals</p>
+                    <a href="#">learn more</a>
+                </div>
+                
+                 
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+    <!--------------------------------------------Portfolio----------------------------------------------------------------->
+    <div id="Portfolio">
+        <div class="container">
+<h1 class="sub-title">My Works</h1>
+<div>
+    <div class="work-list">
+        <div class="work">
+            <img src="work-1.jpg" />
+            <div class="layer">
+              <h3>N-TECH SOFTWARE AND WEBSITE SOLUTIONS</h3>
+                <p>We transform businesses with powerful and adaptable digital solutions that satisfy the needs of today and unlock the opportunities of tomorrow.</p>
+                <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="work-2.jpg" />
+            <div class="layer">
+                <h3>E-Commerce Website(Education)</h3>
+                <p>
+                    An E-commerce website in the education sector is an online platform that facilitates the buying and selling of educational products, 
+                    services, courses, and resources. Its primary objective is to provide a virtual marketplace where students, educators, and institutions can interact, exchange, and access educational content and services conveniently over the internet.
+                </p>
+                <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+         </div>
+        <div class="work">         
+            <img src="work-3.jpg" />
+            <div class="layer">
+                <h3>Library Management System Website</h3>
+                <p>A Library Management System (LMS) website is an online platform designed to efficiently manage and organize library resources and operations. 
+                    It automates various library processes, making it easier for librarians and patrons to access, track, and manage books, journals, digital media, and other materials</p>
+                <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div> </div>
+    </div>
+</div>
+<a href="#" class="btn">See More</a>
+ </div>
+    </div>
+    <!------------------------------------------------contact------------------------------------------------>
+    <div id="contact">
+       <div class="container">
+           <div class="row">
+               <div class="contact-left">
+                   <h1 class="sub-title">Contact Me  </h1>
+                   <p><i class="fa-solid fa-paper-plane"></i>10799nsahu@gmail.com</p>
+                   <p><i class="fa-solid fa-phone"></i>9039368579</p>
+                   <div class="social-icons">
+                       <a href="facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                       <a href=""><i class="fa-brands fa-instagram"></i></a>
+                       <a href="https://www.linkedin.com/in/nitesh-sahu-b935aa20b/"><i class="fa-brands fa-linkedin"></i></a>
+                       <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                  </div>
+                   <a href="C:\Users\Other User2\Desktop\portfolio\Nitesh_Sahu_Resume1.pdf" download class="btn btn2">Download CV</a>
+               </div>
+               <div class="contact-right">
+                   <form name="submit-to-google-sheet">
+                       <input  type="text" name="Name" placeholder="Your Name" required/>
+                       <input type="email" name="Email" placeholder="Your Email" required />
+                       <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                       <button type="submit" class="btn btn2">Submit</button>
+
+                   </form>
+                   <span id ="msg"></span>
+
+               </div>
+
+           </div>
+
+
+
+       </div>
+
+
+
+        <div class="copyright">
+            <p>Copyright Made by<i class="fa-regular fa-heart" style="color: #2dd2b1;"></i> Nitesh </p>
+        </div>
+    </div>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+
+            }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+        
+    }
+
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyKhO6wkef0d1LoqFKQa8lXLiHgIxXzyk2fCfmRrF3x3ZQY8n5A1Smf4oildDspbzSM5w/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>
